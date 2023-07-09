@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Senhor dos Anéis</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/Logo.png" alt="Logo O Senhor dos Anéis">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="aragorn" data-name="Aragorn" data-description="Aragorn era um Guardião do Norte, Acabou sendo descoberto como herdeiro
+                de Isildur e pretendente legítimo aos tronos de Arnor e Gondor">
+                    <img src="./src/imagens/cardaragorn.jpg" alt="Personagem Aragorn">
+                </li>
+
+                <li class="personagem" id="legolas" data-name="Legolas"
+                data-description="Ele é um Elfo Sindar do Reino da Floresta e um dos nove membros da Sociedade que partiu para destruir o Um Anel">
+                    <img src="./src/imagens/cardlegolas.jpg" alt="Personagem Legolas" >
+                </li>
+
+                <li class="personagem" id="gimli" data-name="Gimli" data-description="Era um anão do povo de Durin que se habilitou para acompanhar Frodo Bolseiro na Sociedade do Anel, que tinha por intuito destruir o Um Anel">
+                    <img src="./src/imagens/cardgimli.jpg" alt="Personagem Gimli">
+                </li>
+
+                <li class="personagem" id="Gollum" data-name="Gollum" data-description="Originalmente conhecido como Sméagol, ele foi corrompido pelo Um Anel e, mais tarde, foi chamado de Gollum após o seu hábito de fazer barulhos horríveis em sua garganta ao engolir">
+                    <img src="./src/imagens/cardgollum.jpg" alt="Personagem Gollum">
+                </li>
+
+                <li class="personagem" id="Frodo" data-name="Frodo" data-description="Frodo Bolseiro ou Frodo Underhill é o personagem principal da obra O Senhor dos Anéis de J. R. R. Tolkien. É também mencionado em O Silmarillion - no anexo Dos Anéis do Poder e Da Terceira Era">
+                    <img src="./src/imagens/cardfrodo.jpg" alt="Personagem Frodo">
+                </li>
+
+                <li class="personagem" id="gandalf" data-name="Gandalf" data-description="Gandalf, por vezes Gandalf, o Cinzento ou Gandalf, o Branco é um personagem fictício das obras do autor, professor e filólogo britânico J. R. R. Tolkien">
+                    <img src="./src/imagens/cardgandalf.jpg" alt="Personagem Gandalf">
+                </li>
+
+                <li class="personagem" id="samwise" data-name="Samwise" data-description="Samwise Gamgee, filho de Hamfast Ham Gamgi, ele ajudou Frudo a chegar em Mordor para destruição do anel">
+                    <img src="./src/imagens/cardsamwise.jpg" alt="Personagem Samwise">
+                </li>
+
+                <li class="personagem" id="sauron" data-name="Sauron" data-description="Sauron é um personagem do universo fictício da Terra-média criado por J.R.R. Tolkien, antagonista da trilogia O Senhor dos Anéis, tendo sido o responsável por forjar o Um Anel. Aparece também como o Necromante em O Hobbit e como tenente de Morgoth na obra Silmarillion">
+                    <img src="./src/imagens/cardsauron.jpg" alt="Personagem Sauron">
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/imagens/Aragorn.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Aragorn</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Aragorn era um Guardião do Norte, Acabou sendo descoberto como herdeiro
+                    de Isildur e pretendente legítimo aos tronos de Arnor e Gondor
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
